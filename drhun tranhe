@@ -1,0 +1,56 @@
+import os
+
+class NotizApp:
+    def __init__(self):
+        self.notizen = {}
+
+    def anzeigen(self):
+        # Anzeigen aller vorhandenen Notizen
+        if not self.notizen:
+            print("Keine Notizen vorhanden.")
+        else:
+            print("Notizen:")
+            for titel, text in self.notizen.items():
+                print(f"Titel: {titel}\n{text}\n")
+
+    def hinzufuegen(self, titel, text):
+        # Hinzufügen einer neuen Notiz
+        self.notizen[titel] = text
+        print("Notiz hinzugefügt.")
+
+    def loeschen(self, titel):
+        # Löschen einer vorhandenen Notiz
+        if titel in self.notizen:
+            del self.notizen[titel]
+            print("Notiz gelöscht.")
+        else:
+            print("Notiz nicht gefunden.")
+
+    def start(self):
+        # Hauptfunktion zum Starten der Anwendung
+        while True:
+            print("\n1. Notizen anzeigen")
+            print("2. Notiz hinzufügen")
+            print("3. Notiz löschen")
+            print("0. Beenden")
+
+            auswahl = input("Wählen Sie eine Option: ")
+
+            if auswahl == "1":
+                self.anzeigen()
+            elif auswahl == "2":
+                titel = input("Geben Sie den Titel der Notiz ein: ")
+                text = input("Geben Sie den Text der Notiz ein: ")
+                self.hinzufuegen(titel, text)
+            elif auswahl == "3":
+                titel = input("Geben Sie den Titel der zu löschenden Notiz ein: ")
+                self.loeschen(titel)
+            elif auswahl == "0":
+                print("Beende die Anwendung.")
+                break
+            else:
+                print("Ungültige Eingabe. Bitte erneut versuchen.")
+
+if __name__ == "__main__":
+    app = NotizApp()
+    app.start()
