@@ -28,3 +28,166 @@ if __name__ == "__main__":
     notiz_app.hinzufuegen("Meeting", "Besprechung um 10 Uhr")
     
     notiz_app.anzeigen()
+import os
+
+class NotizApp:
+    def __init__(self):
+        self.notizen = {}
+
+    def anzeigen(self):
+        # Anzeigen aller vorhandenen Notizen
+        if not self.notizen:
+            print("Keine Notizen vorhanden.")
+        else:
+            print("Notizen:")
+            for titel, text in self.notizen.items():
+                print(f"Titel: {titel}\n{text}\n")
+
+    def hinzufuegen(self, titel, text):
+        # Hinzufügen einer neuen Notiz
+        self.notizen[titel] = text
+        print("Notiz hinzugefügt.")
+
+# Beispiel für die Verwendung der NotizApp
+if __name__ == "__main__":
+    notiz_app = NotizApp()
+    
+    notiz_app.anzeigen()
+    
+    notiz_app.hinzufuegen("Einkaufsliste", "Milch, Brot, Eier")
+    notiz_app.hinzufuegen("Meeting", "Besprechung um 10 Uhr")
+    
+    notiz_app.anzeigen()
+import os
+
+class NotizApp:
+    def __init__(self):
+        self.notizen = {}
+
+    def anzeigen(self):
+        # Anzeigen aller vorhandenen Notizen
+        if not self.notizen:
+            print("Keine Notizen vorhanden.")
+        else:
+            print("Notizen:")
+            for titel, text in self.notizen.items():
+                print(f"Titel: {titel}\n{text}\n")
+
+    def hinzufuegen(self, titel, text):
+        # Hinzufügen einer neuen Notiz
+        self.notizen[titel] = text
+        print("Notiz hinzugefügt.")
+
+# Beispiel für die Verwendung der NotizApp
+if __name__ == "__main__":
+    notiz_app = NotizApp()
+    
+    notiz_app.anzeigen()
+    
+    notiz_app.hinzufuegen("Einkaufsliste", "Milch, Brot, Eier")
+    notiz_app.hinzufuegen("Meeting", "Besprechung um 10 Uhr")
+    
+    notiz_app.anzeigen()
+import os
+
+class NotizApp:
+    def __init__(self):
+        self.notizen = {}
+
+    def anzeigen(self):
+        # Anzeigen aller vorhandenen Notizen
+        if not self.notizen:
+            print("Keine Notizen vorhanden.")
+        else:
+            print("Notizen:")
+            for titel, text in self.notizen.items():
+                print(f"Titel: {titel}\n{text}\n")
+
+    def hinzufuegen(self, titel, text):
+        # Hinzufügen einer neuen Notiz
+        self.notizen[titel] = text
+        print("Notiz hinzugefügt.")
+
+# Beispiel für die Verwendung der NotizApp
+if __name__ == "__main__":
+    notiz_app = NotizApp()
+    
+    notiz_app.anzeigen()
+    
+    notiz_app.hinzufuegen("Einkaufsliste", "Milch, Brot, Eier")
+    notiz_app.hinzufuegen("Meeting", "Besprechung um 10 Uhr")
+    
+    notiz_app.anzeigen()
+import os
+
+class NotizApp:
+    def __init__(self):
+        self.notizen = {}
+
+    def anzeigen(self):
+        # Anzeigen aller vorhandenen Notizen
+        if not self.notizen:
+            print("Keine Notizen vorhanden.")
+        else:
+            print("Notizen:")
+            for titel, text in self.notizen.items():
+                print(f"Titel: {titel}\n{text}\n")
+
+    def hinzufuegen(self, titel, text):
+        # Hinzufügen einer neuen Notiz
+        self.notizen[titel] = text
+        print("Notiz hinzugefügt.")
+
+# Beispiel für die Verwendung der NotizApp
+if __name__ == "__main__":
+    notiz_app = NotizApp()
+    
+    notiz_app.anzeigen()
+    
+    notiz_app.hinzufuegen("Einkaufsliste", "Milch, Brot, Eier")
+    notiz_app.hinzufuegen("Meeting", "Besprechung um 10 Uhr")
+    
+    notiz_app.anzeigen()import os
+
+class NotizApp:
+    def __init__(self):
+        self.notizen = {}
+
+    def anzeigen(self):
+        # Anzeigen aller vorhandenen Notizen
+        if not self.notizen:
+            print("Keine Notizen vorhanden.")
+        else:
+            print("Notizen:")
+            for titel, text in self.notizen.items():
+                print(f"Titel: {titel}\n{text}\n")
+
+    def hinzufuegen(self, titel, text):
+        # Hinzufügen einer neuen Notiz
+        self.notizen[titel] = text
+        print("Notiz hinzugefügt.")
+
+# Beispiel für die Verwendung der NotizApp
+if __name__ == "__main__":
+    notiz_app = NotizApp()
+    
+    notiz_app.anzeigen()
+    
+    notiz_app.hinzufuegen("Einkaufsliste", "Milch, Brot, Eier")
+    notiz_app.hinzufuegen("Meeting", "Besprechung um 10 Uhr")
+    
+    notiz_app.anzeigen()
+import os
+
+class NotizApp:
+    def __init__(self):
+        self.notizen = {}
+
+    def anzeigen(self):
+        # Anzeigen aller vorhandenen Notizen
+        if not self.notizen:
+            print("Keine Notizen vorhanden.")
+        else:
+            print("Notizen:")
+            for titel, text in self.notizen.items():
+                print(f"Titel: {
