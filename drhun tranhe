@@ -5,12 +5,6 @@ class NotizApp:
         self.notizen = {}
 
     def anzeigen(self):
-        # Anzeigen aller vorhandenen Notizen
-        if not self.notizen:
-            print("Keine Notizen vorhanden.")
-        else:
-            print("Notizen:")
-            for titel, text in self.notizen.items():
                 print(f"Titel: {titel}\n{text}\n")
 
     def hinzufuegen(self, titel, text):
