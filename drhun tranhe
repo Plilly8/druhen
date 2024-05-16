@@ -5,12 +5,6 @@ class NotizApp:
         self.notizen = {}
 
     def anzeigen(self):
-                print(f"Titel: {titel}\n{text}\n")
-
-    def hinzufuegen(self, titel, text):
-        # Hinzufügen einer neuen Notiz
-        self.notizen[titel] = text
-        print("Notiz hinzugefügt.")
 
 # Beispiel für die Verwendung der NotizApp
 if __name__ == "__main__":
