@@ -21,15 +21,7 @@ class NotizApp:
             for titel, text in self.notizen.items():
                 print(f"Titel: {titel}\n{text}\n")
 
-    def hinzufuegen(self, titel, text):
-        # Hinzufügen einer neuen Notiz
-        self.notizen[titel] = text
-        print("Notiz hinzugefügt.")
-
-# Beispiel für die Verwendung der NotizApp
-if __name__ == "__main__":
-    notiz_app = NotizApp()
-    
+    def hinzufuegen(s
     notiz_app.anzeigen()
     
     notiz_app.hinzufuegen("Einkaufsliste", "Milch, Brot, Eier")
