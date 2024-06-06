@@ -8,9 +8,6 @@ class NotizApp:
     notiz_app.anzeigen()
 import os
 
-class NotizApp:
-    def __init__(self):
-        self.notizen = {}
 
     def anzeigen(self):
         # Anzeigen aller vorhandenen Notizen
